@@ -17,7 +17,7 @@ from keras.optimizers import Adam, SGD, RMSprop
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.applications.vgg16 import preprocess_input as vgg16_preprocessing
 
-from support_modules.glaucoma_functions import run_tests, smooth_curve, visualize_training
+from glaucpack import run_tests, smooth_curve, visualize_training
 
 
 class MetricsPack(keras.callbacks.Callback):
