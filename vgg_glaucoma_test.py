@@ -21,7 +21,7 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Sequential, load_model, Model
 from keras.applications.vgg16 import preprocess_input as vgg16_preprocessing
 
-from support_modules.glaucoma_functions import run_tests, smooth_curve, visualize_training
+from glaucpack import run_tests, smooth_curve, visualize_training
 
 
 
